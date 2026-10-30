@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-homecoverhq-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://homecoverhq.com/
+HomeCover HQ provides measured US renters and homeowners insurance premium data, aggregating NAIC filings and Census records for over 44 million renter households. It offers an API (OpenAPI 3.1) exposing datasets, analytics tools, and a consumer quote service, enabling developers and agents to retrieve rates, compare datasets, and submit enquiries.
+
+**Areas:** Company · Insurance · Data · RealEstate · API
+
+## homecoverhq-com on APIs.io
+
+Everything profiled for homecoverhq-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/homecoverhq-com/](https://apis.io/providers/homecoverhq-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [homecoverhq-com Dataset API](https://apis.io/apis/homecoverhq-com/homecoverhq-com-dataset-api/) — dataset
+- [homecoverhq-com Enquiry API](https://apis.io/apis/homecoverhq-com/homecoverhq-com-enquiry-api/) — enquiry
+- [homecoverhq-com MCP API](https://apis.io/apis/homecoverhq-com/homecoverhq-com-mcp-api/) — The mcp API from homecoverhq-com — 1 operation(s) for mcp.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Homecoverhq Com Agentic Access](https://apis.io/agentic-access/homecoverhq-com/homecoverhq-com-agentic-access/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Homecoverhq Com Openapi Overlay](https://apis.io/overlays/homecoverhq-com/homecoverhq-com-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [homecoverhq-com API Rules](https://apis.io/rules/homecoverhq-com/homecoverhq-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Homecoverhq Com Authentication](https://apis.io/security/homecoverhq-com/homecoverhq-com-authentication/)
+- [Homecoverhq Com Domain Security](https://apis.io/security/homecoverhq-com/homecoverhq-com-domain-security/)
+- [Homecoverhq Com Vulnerability Disclosure](https://apis.io/security/homecoverhq-com/homecoverhq-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Homecoverhq Com Scopes](https://apis.io/scopes/homecoverhq-com/homecoverhq-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Homecoverhq Com Plans Pricing](https://apis.io/plans/homecoverhq-com/homecoverhq-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Homecoverhq Com Rate Limits](https://apis.io/rate-limits/homecoverhq-com/homecoverhq-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://homecoverhq.com/)
+- [API reference](https://homecoverhq.com/openapi.json)
+- [Sign up](https://homecoverhq.com/quote/)
+- [Support](https://homecoverhq.com/#enquire)
+- [Security](https://homecoverhq.com/terms)
+- [Terms of service](https://homecoverhq.com/terms/)
+- [Privacy policy](https://homecoverhq.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 46.9** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 45.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 34.2 |
+
+**Agent readiness 35.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 42.1** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/homecoverhq-com/](https://apis.io/providers/homecoverhq-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for homecoverhq-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/homecoverhq-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
